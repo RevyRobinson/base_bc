@@ -1,0 +1,592 @@
+/*header*/
+#logo-desc p {
+    color: #454545;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/*end*/
+
+ul.topics dd.dterm, ul.topics dt {
+  display: block;
+  float: left;
+  padding-left: 45px;
+  width: 50%;
+  padding-top: 70px;
+}
+p {
+    font-family: Courier New;
+    font-size: 14px;
+    text-align: justify
+    text-shadow: ;
+    text-transform: uppercase;
+}
+/*Tamaño de ava en ultimos temas*/
+dd.lastpost span, dd.moderation span, dd.redirect span, ul.topiclist dd.info span, ul.topiclist dd.searchby span, ul.topiclist dd.time span {
+  display: block;
+  padding-left: 5px;
+  padding-top: 10px;
+  
+}
+.lastpost-avatar img {
+  border:solid 1px black;
+  height: 120px;
+  width: 65px;
+}
+.header dd.posts, .header dd.topics, .header dd.lastpost {
+display: none;
+}
+/* Tamaño de los avatares */
+#chatbox .cb-avatar > img {
+   display: none;
+}
+/* Capa del avatar */
+#chatbox > p.chatbox_row_2.clearfix > span.user-msg > span.cb-avatar, #chatbox > p.chatbox_row_1.clearfix > span.user-msg > span.cb-avatar {
+height: 50px !important;
+width: 50px !important;
+}
+#chatbox .cb-avatar {
+   float: left;
+   margin-right: 4px;
+   background: none repeat scroll 0 0 #fff;
+   border: 1px solid black !important;
+   height: 65px !important;
+   padding: 1px;
+   vertical-align: middle;
+   width: 55px !important;
+}
+#chatbox > p {
+border-bottom: transparent !important;
+}
+/*movil*/
+.mobile-case {
+	background-image: url('http://i.imgur.com/LTTH6lk.png');
+	width: 225px;
+	height: 430px;
+	position: relative;
+}
+
+.mobile-bg {
+	width: 185px;
+	height: 328px;
+	padding: 51px 18px 50px 16px;
+	opacity: 0.8;
+}
+
+.mobile-text {
+	width:185px;
+        height: 328px;
+        background-color: rgba(105, 105, 105, 0.4);
+	overflow-y:auto;
+	margin: 61px 18px 46px 19px;
+	position:absolute;
+	top:-10px;
+	list-style-type: none;
+        font-size: 11px;
+        color: black;
+}
+/*linea que separa perfil*/
+hr {
+  border: dotted 1px gray;
+  border-top: 1px solid #fff;
+  clear: both;
+  display: block;
+  height: 1px;
+  margin: 5px 0;
+}
+.postprofile {
+  border-right: dotted 1px gray;
+font-size: 13px;
+  font-weight: lighter;
+  font-family: Neucha;
+  letter-spacing: 2px;
+  text-transform: none;
+}
+li.header dl.icon {
+min-width: 750px;
+}
+
+/*letra nom usuario*/
+.postprofile {  text-align: center;  padding-bottom: 3px;
+}
+.postprofile dt a{
+  line-height:2 ;
+  text-align: justify;
+  padding-top: 5px;
+  badding-bottom: 3px;
+background-color: #F2F5A9;
+  border: 1px solid gray;
+  font-weight: lighter;
+  font-size: 16px;
+  font-family: Comic Sans MS;
+letter-spacing: 2px;
+}
+/*barra nav*/
+.navbar {
+font-family: courier;
+  font-size: px;
+  letter-spacing:1px;
+  margin-right: px;
+}
+/*fin*/
+
+.appearing-overlay {
+position:relative;
+}
+
+.cosodedesc {
+ border: 1px solid white;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 400px;
+    text-align: center;
+    background-color: #F3F781;
+    color: black;
+  font-family: Comic Sans MS;
+  font-size:11 px;
+  letter-spacing: 1px;
+ font-style: italic;
+}
+
+.desc20 {
+  
+/*background-image: url(http://url imagen);*/
+border: 1px solid #B72D2D;
+border-left: 20px solid #B72D2D;
+color: #290f14;
+font-family: Neucha;
+font-size: 12px;
+line-height: 11px;
+display: block;
+width: 400px;
+height: 100px;
+-webkit-transition: all .5s linear;
+  
+}
+
+.desc20:hover {
+border: 1px solid black;
+border-left: 20px solid black;
+
+  
+} 
+
+#fond01 { 
+position:relative; 
+}
+
+#fond01 img, #fond01 div {
+position: absolute;
+width: 400px;
+height: 100px;
+    
+}
+
+#fond01 img { 
+z-index -1; 
+opacity: 1;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#fond01 div { 
+width: 398px;
+z-index 1; 
+line-height: Xpx;
+opacity: 0;
+text-align: Justify;
+padding: 10px;
+-webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+    
+}
+
+.desc20:hover #fond01 img {
+opacity: 0.1;
+    
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+.desc20:hover #fond01 div {
+opacity: 1;
+    
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}​
+.desc20:hover #fond01 {
+z-index:-2;
+}
+
+#fond01 {
+pointer-events:none
+}
+
+/*Arreglo para registros*/
+
+.letratab {
+    
+width: 250px;
+background-color: gray;
+color: white;
+font-family: Impact;
+border: solid 1px black;
+font-size: 12px;
+text-transform: uppercase;
+text-align: center; 
+letter-spacing:3px;
+}
+
+/*Widgets de staff*/
+div::-webkit-scrollbar { 
+    width: 4px; background: #f4f4f4; 
+} 
+div::-webkit-scrollbar-thumb {
+     background: #232323 !important; 
+}
+div::-webkit-scrollbar-corner { 
+    background: #f4f4f4;
+} 
+.staff-shortcut-cnt{
+    width:152px; 
+    padding-top:3px; 
+    padding-bottom:3px; 
+    text-align:center; 
+    font-family: 'Neucha', sans-serif; 
+    font-size:12px; 
+    letter-spacing:1px; 
+    color: #e8e8e8; 
+    position:relative;
+    background:#020202;"
+}
+.staff-shortcut-cnt div{
+    border-left: 1px #020202;
+    border-right: 1px #020202;
+    border-top:  1px #020202;
+    display: block;
+}
+
+.staff-shortcut-txt {
+    width:150px;
+    top:95px; 
+    background-color:#000000;
+}
+
+.staff-shortcut-fg{
+    background:#e8e8e8;
+    width:150px;height:100px;
+    position:absolute;
+    overflow:auto;
+    left: 0px; top: 3px;
+    transition:ease-in-out 0.5s;
+    -webkit-transition:ease-in-out 0.5s;
+    -ms-transition:ease-in-out 0.5s;
+    -moz-transition:ease-in-out 0.5s;
+    -webkit-transform: scale(0.2);
+    -ms-transform: scale(0.2); 
+    -o-transform: scale(0.2); 
+    transform: scale(0.2);
+    opacity:0;
+    z-index=1;
+
+} .staff-shortcut-cnt:hover .staff-shortcut-fg{
+    -webkit-transform: scale(1); -ms-transform: scale(1); -o-transform: scale(1); transform: scale(1);opacity:1;
+}
+
+
+.postbody .content {
+font-family: Neucha;
+font-size: 12pt;
+
+}
+
+/*avatar en widget*/
+div.module dl.mod-login-avatar dt img {
+  width: 250px;
+  align:center;
+}
+.postbody {
+  text-transform: initial;
+text-align: justify;
+letter-spacing: 0px;
+}
+
+marquee#comments_scroll_container {
+text-align: center;
+  
+}
+.module .h3 {
+font-size: 12px;
+  border-left: 1px dotted black;
+}
+#content-container div#left {
+background: #FFF;
+float: left;
+overflow: hidden;
+top: 30px;
+}
+
+.frambuchan {
+background: #f7f7f7;
+width: 280px;
+height: auto;
+padding: 10px;
+font: 14px Schoolbell;
+color: gray;
+text-transform: uppercase;
+margin: 3px;
+text-align: justify;
+line-height: 3px;
+}
+
+
+.table-title {
+    background-image: url("http://i86.servimg.com/u/f86/17/16/55/46/logo10.png");
+  background-color: #954e4e;
+  background-repeat: no-repeat ;
+    color: #000;
+    display: block;
+    font-family: Neucha;
+    font-size: 22px;
+    font-weight: lighter;
+    letter-spacing: 7px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 200%;
+    padding-bottom: 35px;
+    padding-top: 35px;
+  
+  height: 75px;
+}
+
+.table-title h2 {
+font-family: 'Neucha';
+text-transform: uppercase ;
+  text-style: italic;
+background-color: #F2F5A9;
+  border: 2px solid white;
+color: #000;
+font-family: ;
+display: block;
+font-size: 22px;
+font-weight: lighter;
+letter-spacing: 3px;
+width: 50%;
+  margin-left: 45%;
+text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#semonte {
+padding: 20px 7px 7px 7px;
+text-align: center;
+font-family: 'Neucha', ;
+text-transform: uppercase;
+color: #000;
+letter-spacing: 1px;
+font-size: 16px;
+font-weight: normal;
+opacity: 0.5;
+transition: all 0.4s ease-out;
+-o-transition: all 0.4s ease-out;
+-webkit-transition: all 0.4s ease-out;
+-moz-transition: all 0.4s ease-out;
+}
+#search-box {
+display: none;
+}
+
+
+body {
+font-family: Neucha;
+text-transform: uppercase;
+color: gray;
+letter-spacing: 2px;
+font-size: 10px;
+}
+
+#wrap {
+width: 90%;
+min-width: px;
+background-color: #F9f9f9;
+}
+#logo {
+float: none;
+padding: 0px;
+}
+
+a.mainmenu:before {
+content: '—';
+}
+a.mainmenu {
+  font-weight: lighter;
+font-size: 13px;
+  text-align: center;
+  width: 110px;
+  height: 40px;
+  color: black;
+  background-color: #F3F781;
+  border: solid 1px white;
+    font-style: italic;
+  font-family:Comic Sans MS;
+  letter-spacing: -1px;
+}
+
+.h3 {
+font-weight: 300;
+color: #000;
+font-size: 28px;
+font-family: 'Neucha', sans-serif;
+text-transform: uppercase;
+text-align: center;
+background: #fafafa;
+line-height: 100%;
+padding: 10px 0px 10px 0px;
+letter-spacing: 7px;
+}
+
+a.forumtitle {
+font-family: Schoolbell;
+text-transform: uppercase;
+color: black;
+letter-spacing: 3px;
+font-size: 17px;
+text-align:center;
+}
+
+/*coso del avatar*/ 
+.postprofile { 
+display: block;
+width: 250px;}
+
+.postbody {
+width: 70%;}
+
+#chatbox_main_options{position:absolute;top:0px;right:0px;}
+.chatbox-title{display:no;}
+
+/* letrita chatbox */
+#chatbox {
+  background-color: #F5F5F5;
+    text-transform: none;
+    color: black;
+    font-size: 14px;
+    font-family: Estrangelo Edessa;
+}
+#chatbox_footer input{size: 500px;}
+
+.normalname a:link, .normalname a:visited, .normalname a:active { 
+font-family: 'Neucha';
+text-transform:uppercase; 
+color:#000;  
+letter-spacing: 1px; 
+font-size: 16px; 
+font-weight: normal 
+} 
+
+.unreg { 
+text-align: center; 
+font-family: 'Neucha';  
+text-transform:uppercase; 
+color:#000; 
+letter-spacing: 1px; 
+font-size: 16px; 
+font-weight: normal
+} 
+.searchlite { 
+font-weight:bold; 
+color:#F00; 
+background-color:#FF0 
+} 
+
+#QUOTE { 
+white-space:normal; 
+background: #f7f7f7; 
+font-weight: normal; 
+font-size: 8px; 
+font-family: Courier; 
+text-transform: uppercase; 
+line-height: 90%; 
+border: 0px; 
+color: gray; 
+letter-spacing: 1px 
+} 
+
+.admin2 {
+width: 100%;
+height: 100%;
+line-height: 90px;
+opacity: 0;
+background-color: #FF6699;
+text-align:center;
+}
+.admin2: hover{
+opacity: 1;
+background-image: url('http://i.imgur.com/T026P2U.png');
+}
+
+#i_whosonline + p br + br + em {
+  visibility: hidden;
+}
+
+#chatbox_members {
+    background-color: #F2F5A9;
+  
+  border: 3px solid white;
+    }
+#chatbox_members ul li {
+  font-size: 12px;
+  font-family: Courier;
+  font-weight: bold;
+}
+.chatbox-options li, .chatbox-options li a, .chatbox-options li label {
+color: black;
+  line-height: 5px;
+}
+#chatbox_header {
+    background: #954e4e;
+  color: black;
+  font-family: Neucha;
+  text-transform: none;
+}
+#chatbox_footer {
+    background: #EBEADD;
+}
+#chatbox_messenger_form input[type="text"] {
+    font-size: 14px;
+    height: 20px; /* altura */
+    width: 400px; /* anchura */
+    font-family: Berlin Sans FB;
+}
+.chatbox_row_1,.chatbox_row_2,.chatbox_row_3{
+    font-family: Estrangelo Edessa;
+  text-transform: none;
+  font-size: 14 px;
+    }
+ .chatbox-title a.chat-title {
+color: black !important;
+  font-family: Neucha;
+}
+
+.img-whois {
+  width: 100%;
+margin-right: 15px;
+}
+.post {
+  border-bottom: 1px dotted gray;
+  border-right: 2px solid black;
+}

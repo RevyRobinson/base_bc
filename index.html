@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<style type="text/css">
+	/*BOOTSTRAP GRID*/
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+.col-xs-12 {
+  width: 100%;
+}
+.col-xs-11 {
+  width: 91.66666667%;
+}
+.col-xs-10 {
+  width: 83.33333333%;
+}
+.col-xs-9 {
+  width: 75%;
+}
+.col-xs-8 {
+  width: 66.66666667%;
+}
+.col-xs-7 {
+  width: 58.33333333%;
+}
+.col-xs-6 {
+  width: 50%;
+}
+.col-xs-5 {
+  width: 41.66666667%;
+}
+.col-xs-4 {
+  width: 33.33333333%;
+}
+.col-xs-3 {
+  width: 25%;
+}
+.col-xs-2 {
+  width: 16.66666667%;
+}
+.col-xs-1 {
+  width: 8.33333333%;
+}
+
+.col-xs-offset-12 {
+  margin-left: 100%;
+}
+.col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+.col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+.col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+.col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+.col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+.col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+.col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+.col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+.col-xs-offset-0 {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  .col-sm-11 {
+    width: 91.66666667%;
+  }
+  .col-sm-10 {
+    width: 83.33333333%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-8 {
+    width: 66.66666667%;
+  }
+  .col-sm-7 {
+    width: 58.33333333%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-5 {
+    width: 41.66666667%;
+  }
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-2 {
+    width: 16.66666667%;
+  }
+  .col-sm-1 {
+    width: 8.33333333%;
+  }
+  
+  .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+  .col-sm-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  .col-sm-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  .col-sm-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  .col-sm-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  .col-sm-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  .col-sm-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  .col-sm-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  .col-sm-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  .col-sm-offset-0 {
+    margin-left: 0;
+  }
+}
+
+}
+/*END BOOTSTRAP GRID*/
+/*imagenes responsivas*/
+.img-responsive, {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+body {
+  background-image: url(img/1363809623_69314.jpg);
+  background-size: cover;
+  width: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+}
+header{
+  height: 50px;
+  background-color: darkred;
+}
+header ul li {
+  list-style: none;
+  display: inline-block;
+  height: 50px;
+}
+header ul li:last-child {
+  text-align: right;
+}
+header ul {
+  padding-left: 0px !important;
+  margin: 0px;
+}
+header ul li a {
+  display: inline-block;
+  padding-top: 15px;
+  color: white;
+}
+header ul li a:hover {
+  display: block;
+  padding-top: 15px;
+  width: 100%;
+  font-style: italic;
+}
+/*link a foroactivo*/
+.for-link {
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  background-color: #232020;
+}
+.for-link a {
+  color: darkred;
+}
+/*banner*/
+.banner {
+  background-image: url(img/banner.jpg);
+  height: 200px;
+  width: 100%;
+}
+.banner img {
+}
+/*bloque documentos*/
+.bloque-documentos {
+  margin-top: 0px;
+}
+.bloque-personaje {
+  background-image: url(img/char.png);
+  background-repeat: no-repeat;
+  height: 350px;
+}
+.bloque-usuario {
+  background-image: url(img/uss.png);
+  background-repeat: no-repeat;
+  height: 350px;
+}
+.caja-titulo {
+  position: absolute;
+  bottom: 50px;
+  text-transform: uppercase;
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+}
+.color-fondo {
+  background-color: lightgray;
+}
+.sitio-desc {
+  height: 350px;
+}
+.sitio-desc h3 {
+  color: black;
+  text-align: center;
+  letter-spacing: 2px;  
+}
+.sitio-desc p {
+  background-color: #f6f6f6;
+  padding: 10px;
+  padding-top: 100px;
+  height: 150px;
+  margin: 10px;
+  text-align: justify;
+}
+.title-intro {
+  text-align: center;
+  background-color: black;
+  color: white;
+  text-transform: uppercase; 
+  border-right: 1px solid #f6f6f6;
+}
+.link-intro li a {
+  display: block;
+  text-align: center;
+  background-color: #ffe8c6;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+.link-intro li a:hover {
+  font-style: italic;
+}
+/*on rol site*/
+.on-rol {
+}
+.title-rol {
+  margin-top: 20px;
+  background-color: darkred;
+  text-align: center;
+  color: white;
+}
+.img-rol-1 {
+  background-image: url(img/bloq-1-fondo.jpg);
+  background-size: cover;
+  height: 310px;
+}
+.bloque {
+  height: 290px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
+.desc-bloque p {
+  background-color: #f6f6f6;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.desc-bloque a {
+  display: block;
+  background-color: darkred;
+  color: white;
+  padding: 10px;
+  width: 20%;
+  margin-left: auto;
+}
+/*link!*/
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  padding: 0px;
+}
+li {
+  list-style: none;
+}
+</style>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bellecity!</title>
+</head>
+<body>
+	<div class="for-link">
+    Un foro de <a href="http://www.foroactivo.com/foro-gratis">Foroactivo</a>
+  </div>
+	<header>
+		<ul class="col-sm-offset-2 col-sm-8">
+      <li class="col-sm-1"><a href="#">Inicio</a></li>
+      <li class="col-sm-1"><a href="#">Perfil</a></li>
+      <li class="col-sm-1"><a href="#">Mensajes</a></li>
+      <li class="col-sm-1 col-sm-offset-8"><a href="#">Chatbox</a></li>
+    </ul>
+	</header>
+  <section class="banner">
+    <div class="col-sm-12">
+      <img class="col-sm-offset-5 col-sm-2 img-responsive" src="img/logo.png" />
+    </div>
+  </section>
+  <section class="bloque-documentos">
+    <div class="col-sm-offset-2 col-sm-8">
+      <div class="row">
+        <div class="col-sm-4 bloque-personaje color-fondo"></div>
+
+        <div class="col-sm-4 sitio-desc color-fondo">
+          <h3>Bienvenido a Bellecity</h3>
+          <p>
+            Un foro de rol narrativo basado en un las tres épocas de una ciudad cuya lucha interminable entre héroes y villanos se ha llevado a cabo.
+          </p>
+        </div>
+        <div class="col-sm-4 bloque-usuario color-fondo"></div>
+      </div>
+      <!--Segunda linea-->
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="col-sm-12 title-intro">
+            <h2>Personaje</h2>
+          </div>
+          <!--Botones-->
+          <ul class="link-intro">
+            <li class="col-sm-6">
+            <a href="#">Fichas</a>
+            </li>
+            <li class="col-sm-6">
+            <a href="#">Grupos</a>
+            </li>
+            <li class="col-sm-6">
+            <a href="#">Razas</a>
+            </li>
+            <li class="col-sm-6">
+            <a href="#">Ambientación</a>
+            </li>
+            <li class="col-sm-6">
+            <a href="#">Cronologías</a>
+            </li>
+            <li class="col-sm-6">
+            <a href="#">Galería</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <div class="col-sm-12 title-intro">
+            <h2>Sitio</h2>
+          </div>
+          <!--Botones-->
+          <ul class="link-intro">
+            <li class="col-sm-6">
+            <a href="#">Introducción al Rol</a>
+            </li>
+            <li class="col-sm-6">
+            <a href="#">Preguntas Frecuentes</a>
+            </li>
+            <li class="col-sm-6">
+            <a href="#">Staff</a>
+            </li>
+            <li class="col-sm-6">
+            <a href="#">Link</a>
+            </li>
+            <li class="col-sm-6">
+            <a href="#">Link</a>
+            </li>
+            <li class="col-sm-6">
+            <a href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <div class="col-sm-12 title-intro">
+            <h2>Usuario</h2>
+          </div>
+          <!--Botones-->
+          <ul class="link-intro">
+            <li class="col-sm-6">
+            <a href="#">Libro de Reglas</a>
+            </li>
+            <li class="col-sm-6">
+            <a href="#">Presentación</a>
+            </li>
+            <li class="col-sm-6">
+            <a href="#">Registros</a>
+            </li>
+            <li class="col-sm-6">
+            <a href="#">Eventos</a>
+            </li>
+            <li class="col-sm-6">
+            <a href="#">Ausencias</a>
+            </li>
+            <li class="col-sm-6">
+            <a href="#">Noticias</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--fin-->
+    </div>
+  </section>
+  <section class="on-rol">
+    <div class="row">
+      <div class="col-sm-offset-2 col-sm-8">
+        <div class="col-sm-12 title-rol">
+          <h2>On Rol</h2>
+        </div>
+        <!--BLOQUE 1-->
+        <div class="col-sm-5 img-rol-1">
+        </div>
+        <div class="col-sm-7 bloque">
+          <p>-Bloque 1-</p>
+            <h3>El Ascenso del Héroe</h3>
+          <div class="desc-bloque">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim dignissimos aliquam ratione dolore, impedit error quam modi molestiae ex, animi omnis nulla similique? Et laboriosam qui repellat esse molestias?
+            </p>
+            <a href="#">Go</a>
+          </div>
+        </div>
+        <!--BLOQUE 2-->
+        <div class="col-sm-5 img-rol-1">
+        </div>
+        <div class="col-sm-7 bloque">
+          <p>-Bloque 2-</p>
+            <h3>H.O.P.E. and War</h3>
+          <div class="desc-bloque">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim dignissimos aliquam ratione dolore, impedit error quam modi molestiae ex, animi omnis nulla similique? Et laboriosam qui repellat esse molestias?
+            </p>
+            <a href="#">Go</a>
+          </div>
+        </div>
+        <!--BLOQUE 3-->
+        <div class="col-sm-5 img-rol-1">
+        </div>
+        <div class="col-sm-7 bloque">
+          <p>-Bloque 3-</p>
+            <h3>The New World</h3>
+          <div class="desc-bloque">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim dignissimos aliquam ratione dolore, impedit error quam modi molestiae ex, animi omnis nulla similique? Et laboriosam qui repellat esse molestias?
+            </p>
+            <a href="#">Go</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
