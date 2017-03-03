@@ -209,6 +209,7 @@ body {
   width: 100%;
   margin: 0px;
   overflow-x: hidden;
+  font-family: Verdana;
 }
 header{
   height: 50px;
@@ -230,12 +231,11 @@ header ul li a {
   display: inline-block;
   padding-top: 15px;
   color: white;
+  transition: all 0.5s ease;
 }
 header ul li a:hover {
-  display: block;
-  padding-top: 15px;
-  width: 100%;
   font-style: italic;
+  transition: all 0.5s ease;
 }
 /*link a foroactivo*/
 .for-link {
@@ -303,17 +303,28 @@ header ul li a:hover {
   text-transform: uppercase; 
   border-right: 1px solid #f6f6f6;
 }
+.title-intro2 {
+  text-align: center;
+  background-color: darkred;
+  color: white;
+  text-transform: uppercase; 
+  border-right: 1px solid #f6f6f6;
+}
 .link-intro li a {
   display: block;
   text-align: center;
-  background-color: #ffe8c6;
+  background-color: #fff2df;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
   border-left: 1px solid black;
   padding: 10px;
+  transition: all 0.5s ease;
 }
 .link-intro li a:hover {
   font-style: italic;
+  background-color: darkred;
+  color:white;
+  transition: all 0.5s ease;
 }
 /*on rol site*/
 
@@ -359,6 +370,13 @@ header ul li a:hover {
   padding: 10px;
   width: 20%;
   margin-left: auto;
+  transition: all 0.5s ease;
+}
+.desc-bloque a:hover {
+  background-color: #f6f6f6;
+  color: black;
+  letter-spacing: 2px;
+  transition: all 0.5s ease;
 }
 /*link!*/
 a {
@@ -371,6 +389,7 @@ ul {
 li {
   list-style: none;
 }
+
 </style>
 <html>
 <head>
@@ -437,7 +456,7 @@ li {
           </ul>
         </div>
         <div class="col-sm-4">
-          <div class="col-sm-12 title-intro">
+          <div class="col-sm-12 title-intro2">
             <h2>Sitio</h2>
           </div>
           <!--Botones-->
@@ -494,11 +513,13 @@ li {
   </section>
   <section class="on-rol">
     <div class="row">
-      <div class="col-sm-offset-2 col-sm-8">
-        <div class="col-sm-12 title-rol">
+     <div class="col-sm-offset-2 col-sm-8">
+       <!--  <div class="col-sm-12 title-rol">
           <h2>On Rol</h2>
-        </div>
+        </div>-->
         <!--BLOQUE 1-->
+        <br>
+        <br>
         <div class="col-sm-5 img-rol-1">
         </div>
         <div class="col-sm-7 bloque">
@@ -510,7 +531,7 @@ li {
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim dignissimos aliquam ratione dolore, impedit error quam modi molestiae ex, animi omnis nulla similique? Et laboriosam qui repellat esse molestias?
             </p>
-            <a href="#">Go</a>
+            <a href="#">Entrar</a>
           </div>
         </div>
         <!--BLOQUE 2-->
@@ -523,7 +544,7 @@ li {
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim dignissimos aliquam ratione dolore, impedit error quam modi molestiae ex, animi omnis nulla similique? Et laboriosam qui repellat esse molestias?
             </p>
-            <a href="#">Go</a>
+            <a href="#">Entrar</a>
           </div>
         </div>
         <!--BLOQUE 3-->
@@ -536,7 +557,7 @@ li {
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim dignissimos aliquam ratione dolore, impedit error quam modi molestiae ex, animi omnis nulla similique? Et laboriosam qui repellat esse molestias?
             </p>
-            <a href="#">Go</a>
+            <a href="#">Entrar</a>
           </div>
         </div>
       </div>
