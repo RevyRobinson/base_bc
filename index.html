@@ -6,6 +6,7 @@
   margin-right: auto;
   margin-left: auto;
 }
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -202,6 +203,9 @@
   max-width: 100%;
   height: auto;
 }
+* {
+  font-family: Comic Sans MS;
+}
 body {
   background-image: url(img/fondo-body.jpg);
   background-size: 100%;
@@ -281,30 +285,34 @@ header ul li a:hover {
   text-align: center;
 }
 .color-fondo {
-  background-color: lightgray;
+  /*background-color: lightgray;*/
 }
 .sitio-desc {
   height: 350px;
 }
-.sitio-desc h3 {
+.sitio-desc p {
+  background-color: #FFE4CA;
+  font-family: Comic Sans MS;
+  text-transform: uppercase;
+  font-style: italic;
+  padding: 10px;
+  padding-top: 6%;
+  height: 80px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 13px;
+  border: 2px solid black;
+}
+.sitio-desc p strong {
   color: black;
   text-align: center;
   letter-spacing: 2px;  
-}
-.sitio-desc p {
-  background-color: #f6f6f6;
-  padding: 10px;
-  padding-top: 100px;
-  height: 150px;
-  margin: 10px;
-  text-align: justify;
 }
 .title-intro {
   text-align: center;
   background-color: black;
   color: white;
   text-transform: uppercase; 
-  border-right: 1px solid #f6f6f6;
 }
 .title-intro2 {
   text-align: center;
@@ -314,19 +322,21 @@ header ul li a:hover {
   border-right: 1px solid #f6f6f6;
 }
 .link-intro li a {
+  text-transform: uppercase;
+  font-size: 13px;
   display: block;
   text-align: center;
-  background-color: #fff2df;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
+  background-image: url(http://4.bp.blogspot.com/-Sd7_VWrkZTc/UzgmxyQM1VI/AAAAAAAAF9I/uVQbdPtxtlE/s1600/seamless-web-background-of-aged-grid-paper.jpg);
+  background-size: 100%;
   border-left: 1px solid black;
   padding: 10px;
   transition: all 0.5s ease;
 }
+.link-intro li a:last-child {
+  border-right: 1px solid black;
+}
 .link-intro li a:hover {
   font-style: italic;
-  background-color: darkred;
-  color:white;
   transition: all 0.5s ease;
 }
 /*on rol site*/
@@ -357,11 +367,11 @@ header ul li a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  background-color: lightgray;
+  background-image: url(http://4.bp.blogspot.com/-Sd7_VWrkZTc/UzgmxyQM1VI/AAAAAAAAF9I/uVQbdPtxtlE/s1600/seamless-web-background-of-aged-grid-paper.jpg);
   margin-bottom: 20px;
 }
 .desc-bloque p {
-  background-color: #f6f6f6;
+  background-color:transparent;
   padding: 10px;
   margin-left: 10px;
   margin-right: 10px;
@@ -393,6 +403,8 @@ li {
   list-style: none;
 }
 
+
+
 </style>
 <html>
 <head>
@@ -421,13 +433,12 @@ li {
   <section class="bloque-documentos">
     <div class="col-sm-offset-2 col-sm-8">
       <div class="row">
-        <div class="col-sm-4 bloque-personaje color-fondo"></div>
+        <div class="col-sm-4  color-fondo bloque-personaje" ></div>
 
         <div class="col-sm-4 sitio-desc color-fondo">
-          <h3>Bienvenido a Bellecity</h3>
-          <p>
-            Un foro de rol narrativo basado en un las tres épocas de una ciudad cuya lucha interminable entre héroes y villanos se ha llevado a cabo.
-          </p>
+          
+          <p>¡Bienvenido a Bellecity! Sumérgete en la historia de esta ciudad y sus tres líneas de tiempo, guerra, héroes y villanos y mucha emoción!</p>
+
         </div>
         <div class="col-sm-4 bloque-usuario color-fondo"></div>
       </div>
@@ -435,7 +446,7 @@ li {
       <div class="row">
         <div class="col-sm-4">
           <div class="col-sm-12 title-intro">
-            <h2>Personaje</h2>
+            <h3>Personaje</h3>
           </div>
           <!--Botones-->
           <ul class="link-intro">
@@ -461,7 +472,7 @@ li {
         </div>
         <div class="col-sm-4">
           <div class="col-sm-12 title-intro2">
-            <h2>Sitio</h2>
+            <h3>Sitio</h3>
           </div>
           <!--Botones-->
           <ul class="link-intro">
@@ -487,7 +498,7 @@ li {
         </div>
         <div class="col-sm-4">
           <div class="col-sm-12 title-intro">
-            <h2>Usuario</h2>
+            <h3>Usuario</h3>
           </div>
           <!--Botones-->
           <ul class="link-intro">
@@ -518,19 +529,15 @@ li {
   <section class="on-rol">
     <div class="row">
      <div class="col-sm-offset-2 col-sm-8">
-       <!--  <div class="col-sm-12 title-rol">
-          <h2>On Rol</h2>
-        </div>-->
+        
         <!--BLOQUE 1-->
         <br>
         <br>
         <div class="col-sm-5 img-rol-1">
         </div>
         <div class="col-sm-7 bloque">
-          <p>-Pasado-</p>
-            <h3>
+             <h4>-Pasado-</h4>
               <img class="img-responsive" src="img/bloq1-logo.png">
-            </h3>
           <div class="desc-bloque">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim dignissimos aliquam ratione dolore, impedit error quam modi molestiae ex, animi omnis nulla similique? Et laboriosam qui repellat esse molestias?
@@ -542,8 +549,8 @@ li {
         <div class="col-sm-5 img-rol-2">
         </div>
         <div class="col-sm-7 bloque">
-          <p>-Presente-</p>
-            <h3><img class="img-responsive" src="img/bloq2-logo.png"></h3>
+          <h4>-Presente-</h4>
+            <img class="img-responsive" src="img/bloq2-logo.png">
           <div class="desc-bloque">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim dignissimos aliquam ratione dolore, impedit error quam modi molestiae ex, animi omnis nulla similique? Et laboriosam qui repellat esse molestias?
@@ -555,8 +562,8 @@ li {
         <div class="col-sm-5 img-rol-3">
         </div>
         <div class="col-sm-7 bloque">
-          <p>-Futuro-</p>
-            <h3><img class="img-responsive" src="img/bloq3-logo.png"></h3>
+        <h4>-Futuro-</h4>
+            <img class="img-responsive" src="img/bloq3-logo.png">
           <div class="desc-bloque">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim dignissimos aliquam ratione dolore, impedit error quam modi molestiae ex, animi omnis nulla similique? Et laboriosam qui repellat esse molestias?
